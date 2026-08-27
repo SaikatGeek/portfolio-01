@@ -1153,7 +1153,7 @@
         Available for senior &amp; staff engineering roles
       </div>
       <h1 class="reveal in" style="transition-delay: 60ms;">
-        MD Ariful <br>Islam Saikat
+        MD Ariful <br>Islam <span class="gradient-word">Saikat</span>
         <span class="title-line">Staff Software Engineer · Backend &amp; Platform</span>
       </h1>
       <p class="hero-tagline reveal in" style="transition-delay: 120ms;">
@@ -1609,6 +1609,15 @@
 </footer>
 
 <script>
+  // Always open at the top on reload / revisit
+  if ('scrollRestoration' in history) {
+    history.scrollRestoration = 'manual';
+  }
+  if (!window.location.hash) {
+    window.scrollTo(0, 0);
+    window.addEventListener('load', () => window.scrollTo(0, 0));
+  }
+
   // Year
   document.getElementById('year').textContent = new Date().getFullYear();
 
