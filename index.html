@@ -1,0 +1,1684 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!--
+    TODO: Replace every "https://example.com" below with the real site URL
+    once the domain is known (canonical, Open Graph, Twitter, JSON-LD).
+  -->
+
+  <!-- Primary meta -->
+  <title>MD Ariful Islam Saikat — Staff Software Engineer</title>
+  <meta name="description" content="MD Ariful Islam Saikat — Staff Software Engineer in Dhaka, Bangladesh. 6+ years of backend development in PHP/Laravel, React and AWS across fintech, HRMS and e-commerce.">
+  <meta name="author" content="MD Ariful Islam Saikat">
+  <meta name="robots" content="index, follow">
+  <meta name="theme-color" content="#ffffff">
+  <link rel="canonical" href="https://example.com/">
+
+  <!-- Favicon (inline SVG — matches the brand "A" mark, no extra file needed) -->
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%23202124'/%3E%3Ctext x='16' y='22' font-family='Arial,sans-serif' font-size='18' font-weight='700' fill='%23ffffff' text-anchor='middle'%3EA%3C/text%3E%3C/svg%3E">
+
+  <!-- Open Graph (Facebook, LinkedIn, WhatsApp link previews) -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="MD Ariful Islam Saikat — Staff Software Engineer">
+  <meta property="og:description" content="6+ years of backend development in PHP/Laravel, React and AWS. Leads engineering at Inncon Group on a platform used by 5,000+ investment partners.">
+  <meta property="og:url" content="https://example.com/">
+  <meta property="og:image" content="https://example.com/images/profile.jpg"><!-- TODO: ideally a 1200×630 share image -->
+  <meta property="og:site_name" content="MD Ariful Islam Saikat">
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="MD Ariful Islam Saikat — Staff Software Engineer">
+  <meta name="twitter:description" content="6+ years of backend development in PHP/Laravel, React and AWS across fintech, HRMS and e-commerce.">
+  <meta name="twitter:image" content="https://example.com/images/profile.jpg">
+
+  <!-- Structured data: tells Google who this page is about (knowledge panel, rich results) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "MD Ariful Islam Saikat",
+    "jobTitle": "Staff Software Engineer",
+    "url": "https://example.com/",
+    "image": "https://example.com/images/profile.jpg",
+    "email": "mailto:maislam.saikat@gmail.com",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Dhaka",
+      "addressCountry": "Bangladesh"
+    },
+    "worksFor": {
+      "@type": "Organization",
+      "name": "Inncon Group"
+    },
+    "alumniOf": [
+      { "@type": "CollegeOrUniversity", "name": "Jahangirnagar University" },
+      { "@type": "CollegeOrUniversity", "name": "Daffodil International University" }
+    ],
+    "knowsAbout": ["PHP", "Laravel", "React", "MySQL", "PostgreSQL", "Redis", "AWS", "DigitalOcean", "Docker", "REST APIs"],
+    "sameAs": [
+      "https://linkedin.com/in/ariful-islam-saikat",
+      "https://github.com/SaikatGeek"
+    ]
+  }
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+/* Keep Google Sans Code inlined as it is not on Google Fonts public CDN */
+@font-face {
+  font-family: 'Google Sans Code';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("data:font/woff2;base64,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") format('woff2');
+}
+@font-face {
+  font-family: 'Google Sans Code';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("data:font/woff2;base64,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") format('woff2');
+}
+</style>
+<style>
+  :root {
+    /* Clean white product palette */
+    --bg: #ffffff;
+    --bg-alt: #f8f9fa;
+    --bg-hover: #f1f3f4;
+    --ink: #202124;
+    --ink-muted: #5f6368;
+    --ink-faint: #80868b;
+    --rule: #e8eaed;
+    --rule-strong: #dadce0;
+
+    /* Product accents — inspired by modern productivity tools */
+    --blue: #1a73e8;
+    --blue-soft: #e8f0fe;
+    --green: #188038;
+    --green-soft: #e6f4ea;
+    --red: #d93025;
+    --yellow: #f9ab00;
+
+    --radius-sm: 8px;
+    --radius: 12px;
+    --radius-lg: 16px;
+    --radius-xl: 24px;
+
+    --max: 1200px;
+    --nav-h: 64px;
+    --ease: cubic-bezier(.2,.7,.2,1);
+    --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
+
+    --shadow-1: 0 1px 2px 0 rgba(60,64,67,.06), 0 1px 3px 1px rgba(60,64,67,.08);
+    --shadow-2: 0 1px 3px 0 rgba(60,64,67,.1), 0 4px 8px 3px rgba(60,64,67,.06);
+    --shadow-3: 0 4px 8px 3px rgba(60,64,67,.1), 0 1px 3px 0 rgba(60,64,67,.06);
+  }
+
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  html, body { margin: 0; padding: 0; }
+  body {
+    font-family: 'Inter', 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif;
+    background: var(--bg);
+    color: var(--ink);
+    font-size: 16px;
+    line-height: 1.6;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    overflow-x: hidden;
+    letter-spacing: -0.005em;
+  }
+
+  a { color: inherit; text-decoration: none; }
+
+  .mono { font-family: 'Google Sans Code', ui-monospace, 'SF Mono', Menlo, monospace; }
+
+  .container {
+    max-width: var(--max);
+    margin: 0 auto;
+    padding: 0 32px;
+  }
+
+  /* Skip link — hidden until a keyboard user tabs to it */
+  .skip-link {
+    position: absolute;
+    left: 12px;
+    top: -48px;
+    z-index: 100;
+    padding: 10px 18px;
+    border-radius: 999px;
+    background: var(--ink);
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    transition: top .2s var(--ease);
+  }
+  .skip-link:focus { top: 12px; }
+
+  /* ---------- NAV ---------- */
+  .nav {
+    position: sticky;
+    top: 0;
+    z-index: 40;
+    height: var(--nav-h);
+    background: rgba(255,255,255,0.85);
+    backdrop-filter: saturate(1.8) blur(14px);
+    -webkit-backdrop-filter: saturate(1.8) blur(14px);
+    border-bottom: 1px solid transparent;
+    transition: border-color .25s var(--ease), background .25s var(--ease);
+  }
+  .nav.scrolled { border-bottom-color: var(--rule); background: rgba(255,255,255,0.94); }
+  .nav-inner {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 24px;
+  }
+  .brand {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-weight: 600;
+    font-size: 15px;
+    letter-spacing: -0.015em;
+  }
+  .brand-mark {
+    width: 32px; height: 32px;
+    border-radius: 10px;
+    background: var(--ink);
+    color: #fff;
+    display: grid; place-items: center;
+    font-weight: 700;
+    font-size: 15px;
+    letter-spacing: -0.02em;
+    position: relative;
+    overflow: hidden;
+  }
+  .brand-mark::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(135deg, transparent 55%, rgba(255,255,255,.18));
+  }
+  .brand-name small {
+    display: block;
+    color: var(--ink-muted);
+    font-size: 12px;
+    font-weight: 400;
+    margin-top: -1px;
+    letter-spacing: 0;
+  }
+  .nav-links {
+    display: flex;
+    gap: 2px;
+    align-items: center;
+  }
+  .nav-links a {
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--ink-muted);
+    padding: 8px 14px;
+    border-radius: 8px;
+    transition: color .2s var(--ease), background .2s var(--ease);
+  }
+  .nav-links a:hover { color: var(--ink); background: var(--bg-hover); }
+  .nav-cta {
+    font-size: 14px;
+    font-weight: 500;
+    padding: 9px 18px !important;
+    border-radius: 999px !important;
+    background: var(--ink);
+    color: #fff !important;
+    margin-left: 6px;
+    transition: transform .2s var(--ease), background .2s var(--ease), box-shadow .2s var(--ease);
+  }
+  .nav-cta:hover { background: var(--blue) !important; transform: translateY(-1px); box-shadow: var(--shadow-2); }
+
+  .hamburger {
+    display: none;
+    width: 40px; height: 40px;
+    border: none; background: transparent;
+    border-radius: 50%;
+    cursor: pointer; padding: 0; position: relative;
+  }
+  .hamburger:hover { background: var(--bg-hover); }
+  .hamburger span {
+    position: absolute; left: 11px;
+    width: 18px; height: 2px; border-radius: 2px;
+    background: var(--ink);
+    transition: transform .3s var(--ease), opacity .3s var(--ease), top .3s var(--ease);
+  }
+  .hamburger span:nth-child(1) { top: 14px; }
+  .hamburger span:nth-child(2) { top: 19px; }
+  .hamburger span:nth-child(3) { top: 24px; }
+  .hamburger.open span:nth-child(1) { top: 19px; transform: rotate(45deg); }
+  .hamburger.open span:nth-child(2) { opacity: 0; }
+  .hamburger.open span:nth-child(3) { top: 19px; transform: rotate(-45deg); }
+
+  .mobile-menu {
+    position: fixed;
+    top: var(--nav-h);
+    left: 0; right: 0;
+    background: var(--bg);
+    border-bottom: 1px solid var(--rule);
+    padding: 8px 0 16px;
+    transform: translateY(-10px);
+    opacity: 0;
+    pointer-events: none;
+    transition: transform .3s var(--ease), opacity .3s var(--ease);
+    z-index: 39;
+  }
+  .mobile-menu.open { transform: translateY(0); opacity: 1; pointer-events: auto; }
+  .mobile-menu a {
+    display: block;
+    padding: 14px 32px;
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--ink);
+    border-bottom: 1px solid var(--rule);
+  }
+  .mobile-menu a:last-child { border-bottom: none; }
+
+  /* ---------- HERO ---------- */
+  .hero {
+    position: relative;
+    padding: 72px 0 96px;
+    overflow: hidden;
+  }
+  .hero-inner {
+    position: relative;
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    gap: 64px;
+    align-items: center;
+  }
+  .eyebrow {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 13px;
+    color: var(--ink-muted);
+    font-weight: 500;
+    padding: 6px 14px 6px 10px;
+    border: 1px solid var(--rule);
+    border-radius: 999px;
+    margin-bottom: 28px;
+    background: var(--bg);
+    transition: border-color .25s var(--ease), transform .25s var(--ease);
+  }
+  .eyebrow:hover { border-color: var(--rule-strong); transform: translateY(-1px); }
+  .eyebrow .dot {
+    width: 8px; height: 8px; border-radius: 50%;
+    background: var(--green);
+    position: relative;
+  }
+  .eyebrow .dot::after {
+    content: ""; position: absolute; inset: -4px;
+    border-radius: 50%;
+    background: var(--green);
+    opacity: 0.25;
+    animation: ping 2.2s var(--ease) infinite;
+  }
+  @keyframes ping {
+    0% { transform: scale(0.8); opacity: 0.5; }
+    75%, 100% { transform: scale(2); opacity: 0; }
+  }
+
+  .hero h1 {
+    font-family: 'Plus Jakarta Sans', 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: clamp(44px, 6.2vw, 76px);
+    line-height: 1.02;
+    letter-spacing: -0.035em;
+    margin: 0 0 22px;
+    color: var(--ink);
+  }
+  .hero h1 .title-line {
+    display: block;
+    color: var(--ink-muted);
+    font-size: 0.4em;
+    font-weight: 500;
+    letter-spacing: -0.015em;
+    margin-top: 14px;
+  }
+  .hero h1 .gradient-word {
+    background: linear-gradient(95deg, var(--blue) 0%, #4285f4 40%, #9b72cb 70%, #d96570 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 200% 100%;
+    animation: shimmer 6s ease-in-out infinite;
+  }
+  @keyframes shimmer {
+    0%, 100% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+  }
+
+  .hero-tagline {
+    font-size: 19px;
+    line-height: 1.55;
+    color: var(--ink);
+    max-width: 580px;
+    margin: 0 0 16px;
+    font-weight: 400;
+    letter-spacing: -0.01em;
+  }
+  .hero-about {
+    font-size: 16px;
+    line-height: 1.65;
+    color: var(--ink-muted);
+    max-width: 580px;
+    margin: 0 0 32px;
+  }
+  .hero-meta {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 13px;
+    color: var(--ink-muted);
+    margin-bottom: 28px;
+    flex-wrap: wrap;
+  }
+  .hero-meta .pill {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 5px 12px;
+    border-radius: 999px;
+    background: var(--bg-alt);
+    border: 1px solid var(--rule);
+    font-weight: 500;
+  }
+
+  .cta-row { display: flex; gap: 10px; flex-wrap: wrap; }
+  .btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 9px;
+    padding: 12px 22px;
+    border-radius: 999px;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: -0.005em;
+    transition: transform .2s var(--ease), box-shadow .2s var(--ease), background .2s var(--ease), color .2s var(--ease), border-color .2s var(--ease);
+    border: 1px solid transparent;
+    cursor: pointer;
+    font-family: inherit;
+  }
+  .btn-primary {
+    background: var(--ink);
+    color: #fff;
+  }
+  .btn-primary:hover { background: var(--blue); transform: translateY(-1px); box-shadow: var(--shadow-2); }
+  .btn-ghost {
+    background: var(--bg);
+    color: var(--ink);
+    border-color: var(--rule-strong);
+  }
+  .btn-ghost:hover { background: var(--bg-alt); border-color: var(--ink); transform: translateY(-1px); box-shadow: var(--shadow-1); }
+  .btn svg { width: 16px; height: 16px; }
+
+  /* ---------- GOOGLE-BOX HERO CARD ---------- */
+  .hero-card {
+    position: relative;
+    aspect-ratio: 1/1.05;
+    width: 100%;
+    max-width: 380px;
+    margin-left: auto;
+    border-radius: var(--radius-xl);
+    background: var(--bg-alt);
+    border: 1px solid var(--rule);
+    overflow: hidden;
+    display: grid;
+    grid-template-rows: 1fr auto;
+    box-shadow: var(--shadow-1);
+    transition: box-shadow .4s var(--ease), transform .4s var(--ease);
+  }
+  .hero-card:hover { box-shadow: var(--shadow-3); transform: translateY(-2px); }
+
+  .portrait-slot {
+    position: relative;
+    overflow: hidden;
+    /* Soft gradient sits behind the photo as a fallback while it loads */
+    background:
+      radial-gradient(circle at 30% 20%, rgba(26,115,232,0.08), transparent 45%),
+      radial-gradient(circle at 75% 70%, rgba(217,101,112,0.07), transparent 50%),
+      linear-gradient(180deg, #f8f9fa, #eef1f5);
+  }
+  .portrait-img {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
+  .portrait-slot::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-image:
+      linear-gradient(rgba(32,33,36,.035) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(32,33,36,.035) 1px, transparent 1px);
+    background-size: 24px 24px;
+    mask-image: radial-gradient(ellipse at center, #000 40%, transparent 75%);
+    -webkit-mask-image: radial-gradient(ellipse at center, #000 40%, transparent 75%);
+  }
+  .portrait-initials {
+    position: absolute;
+    inset: 0;
+    display: grid;
+    place-items: center;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: 800;
+    font-size: 96px;
+    letter-spacing: -0.04em;
+    color: var(--ink);
+    line-height: 1;
+  }
+  .portrait-initials .dot-i {
+    color: var(--blue);
+  }
+  .portrait-placeholder-label {
+    position: absolute;
+    left: 14px; top: 14px;
+    font-size: 11px;
+    font-family: 'Google Sans Code', monospace;
+    color: var(--ink-faint);
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+  }
+  .float-chip {
+    position: absolute;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    background: #fff;
+    border: 1px solid var(--rule);
+    border-radius: 999px;
+    padding: 6px 12px;
+    font-size: 12px;
+    font-weight: 500;
+    box-shadow: var(--shadow-1);
+    animation: float 6s var(--ease) infinite;
+  }
+  .float-chip .swatch {
+    width: 8px; height: 8px; border-radius: 50%;
+  }
+  .float-chip.one {
+    top: 18%; right: -8px;
+    animation-delay: 0s;
+  }
+  .float-chip.two {
+    bottom: 22%; left: -10px;
+    animation-delay: 2s;
+  }
+  .float-chip.three {
+    top: 55%; right: 10%;
+    animation-delay: 4s;
+  }
+  @keyframes float {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-6px); }
+  }
+
+  .hero-card-foot {
+    padding: 18px 20px;
+    border-top: 1px solid var(--rule);
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+  }
+  .hero-card-foot .name {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 1.2;
+  }
+  .hero-card-foot .name small {
+    display: block;
+    font-weight: 400;
+    color: var(--ink-muted);
+    font-size: 12px;
+    margin-top: 2px;
+  }
+  .hero-card-foot .status {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 12px;
+    color: var(--green);
+    font-weight: 500;
+    padding: 4px 10px;
+    background: var(--green-soft);
+    border-radius: 999px;
+  }
+  .hero-card-foot .status::before {
+    content: "";
+    width: 6px; height: 6px; border-radius: 50%;
+    background: var(--green);
+  }
+
+  /* ---------- SECTIONS ---------- */
+  section { padding: 88px 0; position: relative; }
+  .section-head {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: end;
+    gap: 32px;
+    margin-bottom: 48px;
+    padding-bottom: 24px;
+    border-bottom: 1px solid var(--rule);
+  }
+  .section-label {
+    font-family: 'Google Sans Code', monospace;
+    font-size: 12px;
+    color: var(--ink-muted);
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin-bottom: 10px;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .section-label::before {
+    content: "";
+    width: 6px; height: 6px; border-radius: 2px;
+    background: var(--blue);
+  }
+  .section-title {
+    font-family: 'Plus Jakarta Sans', 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: clamp(32px, 4.2vw, 48px);
+    line-height: 1.05;
+    letter-spacing: -0.03em;
+    margin: 0;
+    color: var(--ink);
+  }
+  .section-title em {
+    font-style: normal;
+    color: var(--ink-muted);
+    font-weight: 500;
+  }
+  .section-aside {
+    font-size: 14px;
+    color: var(--ink-muted);
+    max-width: 320px;
+    line-height: 1.55;
+    text-align: right;
+  }
+
+  /* ---------- GOOGLE-BOX GRID ---------- */
+  .skills-grid {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 16px;
+  }
+  .skill-card {
+    background: var(--bg);
+    border: 1px solid var(--rule);
+    border-radius: var(--radius-lg);
+    padding: 24px;
+    transition: transform .3s var(--ease-out), box-shadow .3s var(--ease-out), border-color .3s var(--ease-out);
+    position: relative;
+    overflow: hidden;
+  }
+  /* Span pattern — varied box sizes (European/Nordic/modular feel) */
+  .skill-card:nth-child(1) { grid-column: span 3; }
+  .skill-card:nth-child(2) { grid-column: span 3; }
+  .skill-card:nth-child(3) { grid-column: span 2; }
+  .skill-card:nth-child(4) { grid-column: span 2; }
+  .skill-card:nth-child(5) { grid-column: span 2; }
+  .skill-card:nth-child(6) { grid-column: span 6; }
+
+  .skill-card:hover {
+    transform: translateY(-3px);
+    box-shadow: var(--shadow-2);
+    border-color: transparent;
+  }
+  .skill-card .skill-icon {
+    width: 36px; height: 36px;
+    border-radius: 10px;
+    display: grid; place-items: center;
+    margin-bottom: 14px;
+    background: var(--blue-soft);
+    color: var(--blue);
+  }
+  .skill-card .skill-icon svg { width: 18px; height: 18px; }
+  .skill-card:nth-child(2) .skill-icon { background: #fce8e6; color: var(--red); }
+  .skill-card:nth-child(3) .skill-icon { background: #fef7e0; color: #b06000; }
+  .skill-card:nth-child(4) .skill-icon { background: var(--green-soft); color: var(--green); }
+  .skill-card:nth-child(5) .skill-icon { background: #f3e8fd; color: #8430ce; }
+  .skill-card:nth-child(6) .skill-icon { background: #e0f2f1; color: #00695c; }
+
+  .skill-card h3 {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    margin: 0 0 4px;
+    letter-spacing: -0.015em;
+  }
+  .skill-card .skill-sub {
+    font-size: 13px;
+    color: var(--ink-muted);
+    margin-bottom: 16px;
+  }
+  .chips {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+  }
+  .chip {
+    font-family: 'Google Sans Code', monospace;
+    font-size: 12px;
+    padding: 5px 11px;
+    border-radius: 999px;
+    background: var(--bg-alt);
+    color: var(--ink);
+    border: 1px solid var(--rule);
+    transition: background .2s var(--ease), border-color .2s var(--ease);
+  }
+  .chip.accent {
+    background: var(--blue-soft);
+    color: var(--blue);
+    border-color: transparent;
+  }
+
+  /* ---------- EXPERIENCE ---------- */
+  .timeline {
+    position: relative;
+  }
+  .job {
+    position: relative;
+    padding: 24px 28px 24px 64px;
+    margin-bottom: 12px;
+    border: 1px solid var(--rule);
+    border-radius: var(--radius-lg);
+    background: var(--bg);
+    transition: transform .3s var(--ease), box-shadow .3s var(--ease), border-color .3s var(--ease);
+  }
+  .job:hover {
+    transform: translateX(4px);
+    box-shadow: var(--shadow-2);
+    border-color: transparent;
+  }
+  .job::before {
+    content: "";
+    position: absolute;
+    left: 28px; top: 30px;
+    width: 12px; height: 12px;
+    border-radius: 50%;
+    background: var(--bg);
+    border: 2px solid var(--rule-strong);
+    transition: background .25s var(--ease), border-color .25s var(--ease), transform .25s var(--ease);
+  }
+  .job.current::before {
+    background: var(--blue);
+    border-color: var(--blue);
+    box-shadow: 0 0 0 4px var(--blue-soft);
+  }
+  .job:hover::before {
+    transform: scale(1.2);
+  }
+  .job-head {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 8px 20px;
+    margin-bottom: 4px;
+  }
+  .job-role {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    letter-spacing: -0.015em;
+    margin: 0;
+    color: var(--ink);
+  }
+  .job-company {
+    font-size: 14px;
+    color: var(--ink-muted);
+    margin: 0 0 12px;
+  }
+  .job-company strong { color: var(--ink); font-weight: 600; }
+  .job-period {
+    font-family: 'Google Sans Code', monospace;
+    font-size: 12px;
+    color: var(--ink-muted);
+    font-variant-numeric: tabular-nums;
+    white-space: nowrap;
+  }
+  .job-period .current-tag {
+    display: inline-block;
+    background: var(--blue);
+    color: #fff;
+    padding: 2px 8px;
+    border-radius: 999px;
+    font-size: 10px;
+    margin-left: 6px;
+    letter-spacing: 0.02em;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+  }
+  .job-bullets {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 14px;
+  }
+  .job-bullets li {
+    position: relative;
+    padding-left: 20px;
+    font-size: 14.5px;
+    color: var(--ink);
+    line-height: 1.6;
+    margin-bottom: 8px;
+  }
+  .job-bullets li::before {
+    content: "";
+    position: absolute;
+    left: 0; top: 9px;
+    width: 8px; height: 8px;
+    border-radius: 2px;
+    background: var(--rule-strong);
+  }
+  .job-stack {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin-top: 14px;
+  }
+  .stack-tag {
+    font-family: 'Google Sans Code', monospace;
+    font-size: 11.5px;
+    color: var(--ink-muted);
+    padding: 3px 9px;
+    border-radius: 6px;
+    background: var(--bg-alt);
+    border: 1px solid var(--rule);
+  }
+
+  /* ---------- PROJECTS ---------- */
+  .projects-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+  }
+  .project-card {
+    background: var(--bg);
+    border: 1px solid var(--rule);
+    border-radius: var(--radius-lg);
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    transition: transform .35s var(--ease-out), box-shadow .35s var(--ease-out), border-color .35s var(--ease-out);
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    min-height: 320px;
+  }
+  .project-card:hover {
+    transform: translateY(-4px);
+    box-shadow: var(--shadow-3);
+    border-color: transparent;
+  }
+  .project-thumb {
+    height: 120px;
+    margin: -24px -24px 6px;
+    background: linear-gradient(135deg, #e8f0fe, #f8f9fa);
+    position: relative;
+    overflow: hidden;
+    border-bottom: 1px solid var(--rule);
+  }
+  .project-card:nth-child(2) .project-thumb {
+    background: linear-gradient(135deg, #fce8e6, #fef7e0);
+  }
+  .project-card:nth-child(3) .project-thumb {
+    background: linear-gradient(135deg, #e6f4ea, #e8f0fe);
+  }
+  .project-thumb::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-image:
+      linear-gradient(rgba(32,33,36,.05) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(32,33,36,.05) 1px, transparent 1px);
+    background-size: 20px 20px;
+    mask-image: radial-gradient(ellipse at 50% 50%, #000, transparent 80%);
+    -webkit-mask-image: radial-gradient(ellipse at 50% 50%, #000, transparent 80%);
+  }
+  .project-thumb-label {
+    position: absolute;
+    left: 14px; bottom: 12px;
+    font-family: 'Google Sans Code', monospace;
+    font-size: 11px;
+    color: var(--ink-muted);
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    background: rgba(255,255,255,0.85);
+    padding: 3px 8px;
+    border-radius: 4px;
+  }
+  .project-num {
+    font-family: 'Google Sans Code', monospace;
+    font-size: 11.5px;
+    color: var(--ink-faint);
+    letter-spacing: 0.08em;
+  }
+  .project-name {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    letter-spacing: -0.02em;
+    margin: 0;
+    line-height: 1.15;
+  }
+  .project-desc {
+    font-size: 14px;
+    color: var(--ink-muted);
+    line-height: 1.6;
+    margin: 0;
+    flex: 1;
+  }
+  .project-stack {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+  }
+  .project-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 13px;
+    color: var(--blue);
+    font-weight: 500;
+    margin-top: 4px;
+  }
+  .project-link.disabled { color: var(--ink-faint); cursor: default; }
+  .project-link svg { width: 13px; height: 13px; transition: transform .25s var(--ease); }
+  .project-card:hover .project-link:not(.disabled) svg { transform: translate(2px, -2px); }
+
+  /* ---------- EDUCATION ---------- */
+  .edu-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+  }
+  .edu-card {
+    background: var(--bg);
+    border: 1px solid var(--rule);
+    border-radius: var(--radius-lg);
+    padding: 28px;
+    display: flex;
+    gap: 22px;
+    align-items: flex-start;
+    transition: transform .3s var(--ease), box-shadow .3s var(--ease), border-color .3s var(--ease);
+  }
+  .edu-card:hover {
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-2);
+    border-color: transparent;
+  }
+  .edu-year {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 1;
+    color: var(--blue);
+    flex-shrink: 0;
+    letter-spacing: -0.03em;
+  }
+  .edu-body h3 {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    margin: 0 0 4px;
+    letter-spacing: -0.015em;
+    line-height: 1.25;
+  }
+  .edu-body .edu-school {
+    font-size: 14px;
+    color: var(--ink-muted);
+    margin: 0 0 12px;
+  }
+  .edu-body .edu-cgpa {
+    font-family: 'Google Sans Code', monospace;
+    font-size: 12px;
+    color: var(--ink);
+    background: var(--bg-alt);
+    border: 1px solid var(--rule);
+    display: inline-block;
+    padding: 4px 10px;
+    border-radius: 6px;
+  }
+
+  /* ---------- CONTACT ---------- */
+  .contact-block {
+    text-align: center;
+    padding: 64px 24px;
+    background: var(--bg-alt);
+    border-radius: var(--radius-xl);
+    border: 1px solid var(--rule);
+    position: relative;
+    overflow: hidden;
+  }
+  .contact-block::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background:
+      radial-gradient(circle at 20% 30%, rgba(26,115,232,0.08), transparent 40%),
+      radial-gradient(circle at 80% 70%, rgba(217,101,112,0.06), transparent 45%);
+    pointer-events: none;
+  }
+  .contact-eyebrow {
+    font-family: 'Google Sans Code', monospace;
+    font-size: 12px;
+    color: var(--ink-muted);
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    margin-bottom: 18px;
+    position: relative;
+  }
+  .contact-title {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: 700;
+    font-size: clamp(36px, 5.5vw, 60px);
+    line-height: 1.05;
+    letter-spacing: -0.03em;
+    margin: 0 0 18px;
+    max-width: 820px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+  }
+  .contact-title em { font-style: normal; color: var(--ink-muted); font-weight: 500; }
+  .contact-sub {
+    font-size: 16px;
+    color: var(--ink-muted);
+    max-width: 540px;
+    margin: 0 auto 36px;
+    line-height: 1.6;
+    position: relative;
+  }
+  .contact-cta {
+    display: inline-flex; gap: 10px;
+    flex-wrap: wrap; justify-content: center;
+    position: relative;
+  }
+
+  /* ---------- FOOTER ---------- */
+  footer {
+    border-top: 1px solid var(--rule);
+    padding: 36px 0 48px;
+    margin-top: 40px;
+  }
+  .footer-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  .footer-left {
+    font-size: 13px;
+    color: var(--ink-muted);
+  }
+  .footer-left strong { color: var(--ink); font-weight: 600; }
+  .footer-links {
+    display: flex;
+    gap: 6px;
+  }
+  .footer-links a {
+    display: inline-flex;
+    align-items: center;
+    gap: 7px;
+    font-size: 13px;
+    font-weight: 500;
+    padding: 8px 14px;
+    border-radius: 999px;
+    border: 1px solid var(--rule);
+    color: var(--ink-muted);
+    transition: all .2s var(--ease);
+  }
+  .footer-links a:hover {
+    color: var(--ink);
+    border-color: var(--ink);
+    transform: translateY(-1px);
+  }
+  .footer-links svg { width: 14px; height: 14px; }
+
+  /* ---------- REVEAL ANIMATION ---------- */
+  .reveal {
+    opacity: 0;
+    transform: translateY(16px);
+    transition: opacity .7s var(--ease-out), transform .7s var(--ease-out);
+  }
+  .reveal.in { opacity: 1; transform: none; }
+
+  /* ---------- RESPONSIVE ---------- */
+  @media (max-width: 960px) {
+    .hero-inner { grid-template-columns: 1fr; gap: 48px; }
+    .hero-card { max-width: 320px; margin: 0 auto; order: -1; }
+    .skills-grid { grid-template-columns: repeat(2, 1fr); }
+    .skills-grid .skill-card { grid-column: span 1 !important; }
+    .skills-grid .skill-card:nth-child(6) { grid-column: span 2 !important; }
+    .projects-grid { grid-template-columns: 1fr; }
+    .edu-grid { grid-template-columns: 1fr; }
+    .section-head { grid-template-columns: 1fr; }
+    .section-aside { text-align: left; max-width: none; }
+  }
+
+  @media (max-width: 720px) {
+    body { font-size: 15px; }
+    .container { padding: 0 20px; }
+    section { padding: 64px 0; }
+    .hero { padding: 48px 0 64px; }
+    .nav-links { display: none; }
+    .hamburger { display: block; }
+    .skills-grid { grid-template-columns: 1fr; }
+    .skills-grid .skill-card, .skills-grid .skill-card:nth-child(6) { grid-column: span 1 !important; }
+    .job { padding-left: 56px; }
+    .job::before { left: 22px; }
+    .job-head { flex-direction: column; align-items: flex-start; gap: 2px; }
+    .job-period { white-space: normal; }
+    .footer-inner { flex-direction: column; text-align: center; }
+    .edu-card { flex-direction: column; gap: 12px; }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after {
+      animation-duration: 0.001ms !important;
+      transition-duration: 0.001ms !important;
+    }
+    .reveal { opacity: 1; transform: none; }
+  }
+</style>
+</head>
+<body>
+
+<a class="skip-link" href="#main">Skip to content</a>
+
+<!-- NAV -->
+<nav class="nav scrolled" id="nav">
+  <div class="container nav-inner">
+    <a href="#top" class="brand">
+      <span class="brand-mark">A</span>
+      <span class="brand-name">
+        MD Ariful Islam Saikat
+        <small>Staff Software Engineer</small>
+      </span>
+    </a>
+    <div class="nav-links">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#work">Work</a>
+      <a href="#projects">Projects</a>
+      <a href="#education">Education</a>
+      <a href="#contact" class="nav-cta">Get in touch</a>
+    </div>
+    <button class="hamburger" id="hamburger" aria-label="Menu" aria-controls="mobileMenu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+  <div class="mobile-menu" id="mobileMenu" aria-hidden="true">
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#work">Work</a>
+    <a href="#projects">Projects</a>
+    <a href="#education">Education</a>
+    <a href="#contact">Get in touch</a>
+  </div>
+</nav>
+
+<main id="main">
+
+<!-- HERO -->
+<header class="hero" id="top">
+  <div class="container hero-inner">
+    <div class="hero-copy" id="about">
+      <div class="eyebrow reveal in" style="transition-delay: 0ms;">
+        <span class="dot"></span>
+        Available for senior &amp; staff engineering roles
+      </div>
+      <h1 class="reveal in" style="transition-delay: 60ms;">
+        MD Ariful <br>Islam <span class="gradient-word">Saikat</span>
+        <span class="title-line">Staff Software Engineer · Backend &amp; Platform</span>
+      </h1>
+      <p class="hero-tagline reveal in" style="transition-delay: 120ms;">
+        I build production backend systems that move money, people and inventory —
+        quietly, for years, without breaking.
+      </p>
+      <p class="hero-about reveal in" style="transition-delay: 180ms;">
+        Six years of backend development across fintech, HRMS and e-commerce. I lead
+        engineering at Inncon Group on a platform used by 5,000+ investment partners —
+        including a digital wallet built on double-entry accounting that moves over
+        BDT 40 million (approx. USD 330K) in partner profit every month.
+      </p>
+      <div class="hero-meta reveal in" style="transition-delay: 240ms;">
+        <span class="pill">📍 Dhaka, Bangladesh · UTC+6</span>
+        <span class="pill">🌍 Open to remote — full overlap with Asia &amp; the Gulf, 4+ hrs with Europe, evenings with the US</span>
+        <span class="pill">6+ yrs in production</span>
+        <span class="pill">5,000+ investment partners</span>
+      </div>
+      <div class="cta-row reveal in" style="transition-delay: 300ms;">
+        <!-- TODO: drop the CV as "Ariful-Islam-Saikat-CV.pdf" in the project root so this resolves -->
+        <a class="btn btn-primary" href="Ariful-Islam-Saikat-CV.pdf" download>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><path d="M7 10l5 5 5-5"></path><path d="M12 15V3"></path></svg>
+          Download CV
+        </a>
+        <a class="btn btn-ghost" href="https://linkedin.com/in/ariful-islam-saikat" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.063 2.063 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"></path></svg>
+          LinkedIn
+        </a>
+        <a class="btn btn-ghost" href="https://github.com/SaikatGeek" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.374 0 0 5.373 0 12c0 5.302 3.438 9.8 8.207 11.387.6.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0112 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.627-5.373-12-12-12z"></path></svg>
+          GitHub
+        </a>
+      </div>
+    </div>
+
+    <!-- Hero card (Google-box style portrait placeholder) -->
+    <div class="hero-card reveal in" style="transition-delay: 360ms;">
+      <div class="portrait-slot">
+        <img class="portrait-img" src="images/profile.jpg" alt="Portrait of MD Ariful Islam Saikat, Staff Software Engineer" loading="lazy" decoding="async" width="380" height="400">
+        <span class="float-chip one"><span class="swatch" style="background:var(--blue)"></span>Laravel</span>
+        <span class="float-chip two"><span class="swatch" style="background:var(--green)"></span>AWS</span>
+        <span class="float-chip three"><span class="swatch" style="background:#8430ce"></span>React</span>
+      </div>
+      <div class="hero-card-foot">
+        <div class="name">
+          Ariful Islam Saikat
+          <small>Staff Software Engineer</small>
+        </div>
+        <div class="status">Online</div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- SKILLS -->
+<section id="skills">
+  <div class="container">
+    <div class="section-head reveal in" style="transition-delay: 0ms;">
+      <div>
+        <div class="section-label">01 — Toolkit</div>
+        <h2 class="section-title">Things I reach for, <em>every day</em>.</h2>
+      </div>
+      <p class="section-aside">
+        Six years of production work. Deep in PHP/Laravel and the MySQL/Redis stack;
+        comfortable across the JS side when the job calls for it.
+      </p>
+    </div>
+
+    <div class="skills-grid">
+      <div class="skill-card reveal in" style="transition-delay: 60ms;">
+        <div class="skill-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 18l6-6-6-6M8 6l-6 6 6 6"></path></svg>
+        </div>
+        <h3>Languages</h3>
+        <div class="skill-sub">Day-to-day</div>
+        <div class="chips">
+          <span class="chip accent">PHP 7–8</span>
+          <span class="chip accent">JavaScript ES6+</span>
+        </div>
+      </div>
+
+      <div class="skill-card reveal in" style="transition-delay: 120ms;">
+        <div class="skill-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="8" rx="1"></rect><rect x="3" y="12" width="18" height="8" rx="1"></rect><circle cx="7" cy="8" r="1"></circle><circle cx="7" cy="16" r="1"></circle></svg>
+        </div>
+        <h3>Backend</h3>
+        <div class="skill-sub">APIs &amp; services</div>
+        <div class="chips">
+          <span class="chip">Laravel</span>
+          <span class="chip">Express.js</span>
+          <span class="chip">REST API</span>
+          <span class="chip">JWT</span>
+        </div>
+      </div>
+
+      <div class="skill-card reveal in" style="transition-delay: 180ms;">
+        <div class="skill-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7" rx="1"></rect><rect x="14" y="3" width="7" height="7" rx="1"></rect><rect x="3" y="14" width="7" height="7" rx="1"></rect><rect x="14" y="14" width="7" height="7" rx="1"></rect></svg>
+        </div>
+        <h3>Frontend</h3>
+        <div class="skill-sub">When needed</div>
+        <div class="chips">
+          <span class="chip">React.js</span>
+          <span class="chip">Bootstrap</span>
+          <span class="chip">Material UI</span>
+          <span class="chip">HTML5</span>
+          <span class="chip">CSS3</span>
+        </div>
+      </div>
+
+      <div class="skill-card reveal in" style="transition-delay: 240ms;">
+        <div class="skill-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><ellipse cx="12" cy="5" rx="9" ry="3"></ellipse><path d="M3 5v6c0 1.66 4 3 9 3s9-1.34 9-3V5"></path><path d="M3 11v6c0 1.66 4 3 9 3s9-1.34 9-3v-6"></path></svg>
+        </div>
+        <h3>Databases</h3>
+        <div class="skill-sub">Storage &amp; cache</div>
+        <div class="chips">
+          <span class="chip">MySQL</span>
+          <span class="chip">PostgreSQL</span>
+          <span class="chip">MongoDB</span>
+          <span class="chip">Redis</span>
+        </div>
+      </div>
+
+      <div class="skill-card reveal in" style="transition-delay: 300ms;">
+        <div class="skill-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17.5 19a4.5 4.5 0 100-9h-1.8A7 7 0 104 15.9"></path></svg>
+        </div>
+        <h3>DevOps</h3>
+        <div class="skill-sub">Ship &amp; run</div>
+        <div class="chips">
+          <span class="chip">AWS</span>
+          <span class="chip">DigitalOcean</span>
+          <span class="chip">Docker</span>
+          <span class="chip">GitHub Actions</span>
+          <span class="chip">Linux</span>
+          <span class="chip">TCP/IP</span>
+        </div>
+      </div>
+
+      <div class="skill-card reveal in" style="transition-delay: 360ms;">
+        <div class="skill-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+        </div>
+        <h3>Practice &amp; tooling</h3>
+        <div class="skill-sub">Concepts, testing, workflow</div>
+        <div class="chips">
+          <span class="chip">OOP</span>
+          <span class="chip">Unit Testing</span>
+          <span class="chip">PHPUnit</span>
+          <span class="chip">Queues</span>
+          <span class="chip">Cron Jobs</span>
+          <span class="chip">Git</span>
+          <span class="chip">Postman</span>
+          <span class="chip">VS Code</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- WORK -->
+<section id="work" style="padding-top:24px">
+  <div class="container">
+    <div class="section-head reveal in" style="transition-delay: 0ms;">
+      <div>
+        <div class="section-label">02 — Experience</div>
+        <h2 class="section-title">Where I've <em>built</em>.</h2>
+      </div>
+      <p class="section-aside">
+        A steady climb from Laravel client work to leading an engineering function —
+        three in-house engineers plus three vendor companies, on a platform that moves
+        partner money every month.
+      </p>
+    </div>
+
+    <div class="timeline">
+
+      <article class="job current reveal in" style="transition-delay: 60ms;">
+        <div class="job-head">
+          <h3 class="job-role">Staff Software Engineer</h3>
+          <span class="job-period">Jan 2026 — Present <span class="current-tag">Current</span></span>
+        </div>
+        <p class="job-company"><strong>Inncon Group</strong> · Engineering lead for mydatasbd</p>
+        <ul class="job-bullets">
+          <li>Lead engineering for mydatasbd, the company's platform for 5,000+ investment partners. It has three parts: an investment system, an online store, and a digital deed system.</li>
+          <li>Manage three in-house engineers and three vendor companies. Assign their tasks and review the work they deliver.</li>
+          <li>Built the platform's new digital wallet. The old one had too many calculation errors, so we replaced it instead of fixing it. The new wallet uses double-entry accounting, so every balance comes from journal and ledger entries instead of a stored number, and any amount can be traced back and checked.</li>
+          <li>Automated the monthly profit share. The system calculates each partner's profit and adds it to their wallet directly. Over BDT 40 million goes through this process every month.</li>
+          <li>Built partner-to-partner transfer and withdrawal on the same ledger. For a withdrawal, the system creates a payout list. The accounts team then pays by cheque, or sends the list to the bank for payment. No third-party payment service is used.</li>
+          <li>Built a scheduled job that moves a set percentage from a partner's main wallet to their shopping wallet on a fixed date each month. It posts to the same journal and ledger, so both balances stay correct.</li>
+          <li>Built the digital deed system. It creates the investment deed for each partner online and prepares it for printing on BDT 100 judicial stamp paper.</li>
+          <li>Added the shopping wallet as a payment method in the online store, so partners can pay from their wallet balance instead of an outside payment gateway.</li>
+        </ul>
+        <div class="job-stack">
+          <span class="stack-tag">PHP</span><span class="stack-tag">Laravel</span><span class="stack-tag">React.js</span>
+          <span class="stack-tag">MySQL</span><span class="stack-tag">Redis</span><span class="stack-tag">Docker</span>
+          <span class="stack-tag">DigitalOcean</span><span class="stack-tag">GitHub Actions</span><span class="stack-tag">Scheduled Jobs</span>
+        </div>
+      </article>
+
+      <article class="job reveal in" style="transition-delay: 120ms;">
+        <div class="job-head">
+          <h3 class="job-role">Software Engineer</h3>
+          <span class="job-period">Aug 2022 — Dec 2025</span>
+        </div>
+        <p class="job-company"><strong>Ryans Computers Ltd</strong> · Production HRMS for 600+ employees</p>
+        <ul class="job-bullets">
+          <li>Designed and maintained an HRMS for 600+ employees. It covers attendance, payroll, leave, performance review, and employee self-service.</li>
+          <li>Built an automated payroll system that handles salary, bonus, loans, and tax with 99% accuracy.</li>
+          <li>Replaced password-based attendance with biometric devices. This stopped proxy attendance and reduced payroll mistakes across the company.</li>
+          <li>Reduced HR admin work by 35% using workflow automation, cron-based reconciliation, and reports across modules.</li>
+          <li>Worked closely with the HR team to find daily problems and build backend features that solved them.</li>
+        </ul>
+        <div class="job-stack">
+          <span class="stack-tag">PHP</span><span class="stack-tag">Laravel</span><span class="stack-tag">MySQL</span>
+          <span class="stack-tag">Redis</span><span class="stack-tag">Docker</span><span class="stack-tag">AWS</span>
+          <span class="stack-tag">Cron Jobs</span><span class="stack-tag">Queues</span><span class="stack-tag">Git</span>
+        </div>
+      </article>
+
+      <article class="job reveal in" style="transition-delay: 180ms;">
+        <div class="job-head">
+          <h3 class="job-role">Software Engineer</h3>
+          <span class="job-period">Feb 2021 — May 2022</span>
+        </div>
+        <p class="job-company"><strong>Shodaimama</strong> · Full-stack e-commerce</p>
+        <ul class="job-bullets">
+          <li>Built a full-stack e-commerce platform with a React.js frontend and Express.js REST APIs for web and mobile. It covers login, product catalogue, orders, and payments.</li>
+          <li>Designed database schemas and optimized queries to keep the site fast under heavy load.</li>
+          <li>Improved code quality in a mixed-experience team through regular peer review.</li>
+        </ul>
+        <div class="job-stack">
+          <span class="stack-tag">React.js</span><span class="stack-tag">Express.js</span><span class="stack-tag">MongoDB</span>
+          <span class="stack-tag">Redis</span><span class="stack-tag">Docker</span><span class="stack-tag">AWS</span>
+        </div>
+      </article>
+
+      <article class="job reveal in" style="transition-delay: 240ms;">
+        <div class="job-head">
+          <h3 class="job-role">Software Engineer</h3>
+          <span class="job-period">Oct 2020 — Jan 2021</span>
+        </div>
+        <p class="job-company"><strong>Advanced Apps Bangladesh</strong> · SaaS financial task management</p>
+        <ul class="job-bullets">
+          <li>Built a SaaS task management system for finance teams, on web and mobile. It has role-based scheduling, deadline tracking, and automatic reminders based on user permissions.</li>
+          <li>Fixed production bugs, improved REST API response times, and handled server deployment and maintenance through cPanel.</li>
+          <li>Set up data backups and applied security hardening on the production server.</li>
+        </ul>
+        <div class="job-stack">
+          <span class="stack-tag">PHP</span><span class="stack-tag">Laravel</span><span class="stack-tag">Vue.js</span>
+          <span class="stack-tag">MySQL</span><span class="stack-tag">GitLab</span>
+        </div>
+      </article>
+
+      <article class="job reveal in" style="transition-delay: 300ms;">
+        <div class="job-head">
+          <h3 class="job-role">Software Engineer</h3>
+          <span class="job-period">Sep 2019 — Sep 2020</span>
+        </div>
+        <p class="job-company"><strong>Edorpon</strong> · Laravel client work</p>
+        <ul class="job-bullets">
+          <li>Built Laravel web applications for clients, including user management systems, custom report modules, and automated business workflows.</li>
+          <li>Handled the full project cycle: requirements, backend development, REST API integration, testing, and deployment.</li>
+          <li>Integrated third-party REST APIs and introduced practices that made the team's work faster and more consistent.</li>
+        </ul>
+        <div class="job-stack">
+          <span class="stack-tag">Laravel</span><span class="stack-tag">MySQL</span><span class="stack-tag">jQuery</span>
+          <span class="stack-tag">Git</span>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects">
+  <div class="container">
+    <div class="section-head reveal in" style="transition-delay: 0ms;">
+      <div>
+        <div class="section-label">03 — Selected work</div>
+        <h2 class="section-title">Projects, <em>in production</em>.</h2>
+      </div>
+      <p class="section-aside">
+        A mix of internal platforms and a personal build. Internal links are placeholders
+        until public URLs are available.
+      </p>
+    </div>
+
+    <div class="projects-grid">
+
+      <article class="project-card reveal in" style="transition-delay: 60ms;">
+        <div class="project-thumb">
+          <span class="project-thumb-label">— Project preview</span>
+        </div>
+        <div class="project-num">P / 01</div>
+        <h3 class="project-name">ImageSquad</h3>
+        <p class="project-desc">
+          Full-stack image editing platform on a custom PHP MVC framework with its own
+          routing, separate controllers and a modular structure. The React.js frontend
+          gives a single-page editing experience, with PHP's ImageMagick extension
+          processing images on the server — no page reload.
+        </p>
+        <div class="project-stack">
+          <span class="stack-tag">React.js</span><span class="stack-tag">Bootstrap</span>
+          <span class="stack-tag">Material UI</span><span class="stack-tag">PHP</span>
+          <span class="stack-tag">ImageMagick</span>
+        </div>
+        <!-- TODO: replace example.com with the live project URL -->
+        <a class="project-link" href="https://example.com" target="_blank" rel="noopener">
+          Live link
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M8 7h9v9"></path></svg>
+        </a>
+      </article>
+
+      <article class="project-card reveal in" style="transition-delay: 120ms;">
+        <div class="project-thumb">
+          <span class="project-thumb-label">— Project preview</span>
+        </div>
+        <div class="project-num">P / 02</div>
+        <h3 class="project-name">mydatasbd</h3>
+        <p class="project-desc">
+          The platform for 5,000+ investment partners at Inncon Group: an investment
+          system, an online store and a digital deed system, all running on one
+          double-entry wallet ledger.
+        </p>
+        <div class="project-stack">
+          <span class="stack-tag">Laravel</span><span class="stack-tag">React.js</span>
+          <span class="stack-tag">MySQL</span><span class="stack-tag">DigitalOcean</span>
+        </div>
+        <!-- TODO: replace example.com with the real project URL -->
+        <a class="project-link" href="https://example.com" target="_blank" rel="noopener">
+          View project
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M8 7h9v9"></path></svg>
+        </a>
+      </article>
+
+      <article class="project-card reveal in" style="transition-delay: 180ms;">
+        <div class="project-thumb">
+          <span class="project-thumb-label">— Project preview</span>
+        </div>
+        <div class="project-num">P / 03</div>
+        <h3 class="project-name">HRMS Platform</h3>
+        <p class="project-desc">
+          Production HRMS for 600+ employees at Ryans Computers — attendance, payroll,
+          leave, performance review and employee self-service, running as the company's
+          daily system.
+        </p>
+        <div class="project-stack">
+          <span class="stack-tag">Laravel</span><span class="stack-tag">MySQL</span>
+          <span class="stack-tag">Redis</span><span class="stack-tag">Docker</span>
+        </div>
+        <!-- TODO: replace example.com with the real project URL -->
+        <a class="project-link" href="https://example.com" target="_blank" rel="noopener">
+          View project
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M8 7h9v9"></path></svg>
+        </a>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- EDUCATION -->
+<section id="education">
+  <div class="container">
+    <div class="section-head reveal in" style="transition-delay: 0ms;">
+      <div>
+        <div class="section-label">04 — Education</div>
+        <h2 class="section-title">School &amp; <em>study</em>.</h2>
+      </div>
+      <p class="section-aside">
+        Formal CS background — undergrad through master's, both in Dhaka.
+      </p>
+    </div>
+
+    <div class="edu-grid">
+      <div class="edu-card reveal in" style="transition-delay: 60ms;">
+        <div class="edu-year">’24</div>
+        <div class="edu-body">
+          <h3>M.Sc. in Computer Science</h3>
+          <p class="edu-school">Jahangirnagar University · 2024</p>
+          <span class="edu-cgpa">CGPA 3.60 / 4.00</span>
+        </div>
+      </div>
+
+      <div class="edu-card reveal in" style="transition-delay: 120ms;">
+        <div class="edu-year">’19</div>
+        <div class="edu-body">
+          <h3>B.Sc. in Computer Science &amp; Engineering</h3>
+          <p class="edu-school">Daffodil International University · 2019</p>
+          <span class="edu-cgpa">CGPA 3.39 / 4.00</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" style="padding-bottom:40px">
+  <div class="container">
+    <div class="contact-block reveal in" style="transition-delay: 0ms;">
+      <div class="contact-eyebrow">— Get in touch</div>
+      <h2 class="contact-title">Let's build something <em>that stays up</em>.</h2>
+      <p class="contact-sub">
+        Open to senior and staff engineering roles — full-time or contract.
+        Happiest shipping backend systems that handle money, people, or inventory at scale.
+      </p>
+      <div class="contact-cta">
+        <!-- Opens a Gmail compose window in a new tab — reliable even without a desktop mail client -->
+        <a class="btn btn-primary" href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=maislam.saikat@gmail.com" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="2"></rect><path d="m2 6 10 7 10-7"></path></svg>
+          Email me
+        </a>
+        <button class="btn btn-ghost" id="copyEmail" type="button" data-email="maislam.saikat@gmail.com">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+          <span class="copy-label">Copy email</span>
+        </button>
+        <a class="btn btn-ghost" href="https://linkedin.com/in/ariful-islam-saikat" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.063 2.063 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"></path></svg>
+          Reach me on LinkedIn
+        </a>
+        <a class="btn btn-ghost" href="https://github.com/SaikatGeek" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.374 0 0 5.373 0 12c0 5.302 3.438 9.8 8.207 11.387.6.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0112 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.627-5.373-12-12-12z"></path></svg>
+          See my GitHub
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- FOOTER -->
+<footer>
+  <div class="container footer-inner">
+    <div class="footer-left">
+      <strong>Ariful Islam Saikat</strong> · Dhaka, Bangladesh
+      <div>© <span id="year">2026</span> All rights reserved.</div>
+    </div>
+    <div class="footer-links">
+      <a href="https://linkedin.com/in/ariful-islam-saikat" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.063 2.063 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"></path></svg>
+        LinkedIn
+      </a>
+      <a href="https://github.com/SaikatGeek" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.374 0 0 5.373 0 12c0 5.302 3.438 9.8 8.207 11.387.6.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0112 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.627-5.373-12-12-12z"></path></svg>
+        GitHub
+      </a>
+    </div>
+  </div>
+</footer>
+
+<script>
+  // Year
+  document.getElementById('year').textContent = new Date().getFullYear();
+
+  // Nav scroll state
+  const nav = document.getElementById('nav');
+  const setNavState = () => nav.classList.toggle('scrolled', window.scrollY > 8);
+  setNavState();
+  window.addEventListener('scroll', setNavState, { passive: true });
+
+  // Hamburger — keep the visual state and ARIA state in sync
+  const burger = document.getElementById('hamburger');
+  const menu = document.getElementById('mobileMenu');
+  const setMenu = (open) => {
+    burger.classList.toggle('open', open);
+    menu.classList.toggle('open', open);
+    burger.setAttribute('aria-expanded', String(open));
+    menu.setAttribute('aria-hidden', String(!open));
+  };
+  burger.addEventListener('click', () => setMenu(!menu.classList.contains('open')));
+  menu.querySelectorAll('a').forEach(a => a.addEventListener('click', () => setMenu(false)));
+
+  // Copy email to the clipboard with a quick "Copied!" confirmation
+  const copyBtn = document.getElementById('copyEmail');
+  if (copyBtn) {
+    const label = copyBtn.querySelector('.copy-label');
+    copyBtn.addEventListener('click', async () => {
+      try {
+        await navigator.clipboard.writeText(copyBtn.dataset.email);
+        const original = label.textContent;
+        label.textContent = 'Copied!';
+        setTimeout(() => { label.textContent = original; }, 1500);
+      } catch {
+        // Clipboard API unavailable (e.g. non-HTTPS) — fall back to a manual prompt
+        window.prompt('Copy this email address:', copyBtn.dataset.email);
+      }
+    });
+  }
+
+  // Reveal on scroll with staggered delays per section
+  const io = new IntersectionObserver((entries) => {
+    entries.forEach((e) => {
+      if (e.isIntersecting) {
+        const sec = e.target.closest('section, header');
+        const siblings = sec ? [...sec.querySelectorAll('.reveal')] : [e.target];
+        const idx = Math.max(0, siblings.indexOf(e.target));
+        e.target.style.transitionDelay = Math.min(idx * 60, 360) + 'ms';
+        e.target.classList.add('in');
+        io.unobserve(e.target);
+      }
+    });
+  }, { threshold: 0.1, rootMargin: '0px 0px -30px 0px' });
+
+  document.querySelectorAll('.reveal').forEach(el => io.observe(el));
+
+  // Subtle magnetic hover on project cards
+  document.querySelectorAll('.project-card, .skill-card, .edu-card').forEach(card => {
+    card.addEventListener('mousemove', (e) => {
+      const r = card.getBoundingClientRect();
+      const x = (e.clientX - r.left) / r.width - 0.5;
+      const y = (e.clientY - r.top) / r.height - 0.5;
+      card.style.setProperty('--tx', (x * 3).toFixed(2) + 'px');
+      card.style.setProperty('--ty', (y * 3).toFixed(2) + 'px');
+    });
+    card.addEventListener('mouseleave', () => {
+      card.style.removeProperty('--tx');
+      card.style.removeProperty('--ty');
+    });
+  });
+</script>
+
+
+
+</body></html>
